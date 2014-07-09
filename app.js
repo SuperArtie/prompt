@@ -82,4 +82,4 @@ height = parseInt(height);
 
 var bmi = ((lbs/(height*height)) * 703);
 
-console.log('you bmi is', bmi.toFixed(1));
+console.log('you bmi is', bmi.toFixed(1));//toFixed(n) cuts off the integer by n decimal places

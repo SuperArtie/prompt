@@ -61,7 +61,7 @@ else
   alt = 'f';
 }
 console.log(temp + scale + ' -> ' + converted + alt);
-*/
+
 //CALC BMI
 console.log('Please enter your height by feet <enter> then inches <enter>');
 var hFeet = prompt(' ');
@@ -72,7 +72,7 @@ var height = (hFeet*12) + hInch;
 var weight = prompt('now enter your weight ')
 var bmi = (weight/(height*height))*703;
 console.log('Yr bmi is ' + bmi + ' you fatty fat lumpkinz');
-
+*/
 //CALC BMI IMPROVED
 var lbs = prompt('Weight in lbs? ');
 var height = prompt('Height in inches? ');
